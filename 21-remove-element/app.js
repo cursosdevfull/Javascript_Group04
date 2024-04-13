@@ -6,7 +6,8 @@ const ul = document.querySelector("ul");
 //ul.firstElementChild.remove();
 
 if (ul.children.length > 0) {
-  for (let index = 0; index < ul.children.length; index++) {
+  const length = ul.children.length;
+  for (let index = length - 1; index >= 0; index--) {
     ul.removeChild(ul.children[index]);
   }
 }
