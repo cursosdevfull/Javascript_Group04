@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="vendor.js" defer></script>
+    <script src="app.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>CursosDev</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col-10">
+          <h1>Find and FindIndex</h1>
+          <div class="d-flex col-6">
+            <input
+              type="text"
+              class="form-control p-2"
+              id="name"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              class="form-control p-2"
+              id="lastname"
+              placeholder="Lastname"
+            />
+            <button class="btn btn-primary p-2" id="search">Search</button>
+            <button class="btn btn-secondary p-2" id="reset">Reset</button>
+          </div>
+          <hr />
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
