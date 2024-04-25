@@ -23,3 +23,15 @@ function resetGame(value) {
   mounsterHealthBar.value = value;
   playerHealthBar.value = value;
 }
+
+function increasePlayerHealth(healthValue) {
+  playerHealthBar.value = +playerHealthBar.value + healthValue;
+}
+
+function updateAvailableLifes(value) {
+  bonusLife.textContent = value;
+}
+
+function removeBonusLife() {
+  bonusLife.parentNode.removeChild(bonusLife);
+}
