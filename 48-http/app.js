@@ -25,6 +25,13 @@ const sentFetch = (methodName, url, data) =>
 const showData = (results) => {
   ul.innerHTML = "";
 
+  for (const el of results) {
+    const post = document.importNode(template.content, true);
+    post.querySelector("h2").textContext = el.title.toUpperCase();
+    post.querySelector("img").src = el.thumbnailUrl;
+    ul.appendChild(post);
+  }
+
   /*   for (const el of results) {
     const li = document.createElement("li");
     const h2 = document.createElement("h2");
