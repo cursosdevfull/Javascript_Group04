@@ -9,7 +9,20 @@ export class ProductItem extends Component {
   }
 
   render() {
-    const prodElement = this.createRootElement("li", "product-item");
+    const prodElement = this.getTemplate("product-item");
+    prodElement.querySelector("h2").textContent = this.product.title;
+    prodElement.querySelector("h3").textContent = this.product.price;
+    prodElement.querySelector("p").textContent = this.product.description;
+
+    const img = prodElement.querySelector("img");
+    img.setAttribute("src", this.product.imageUrl);
+    img.setAttribute("alt", this.product.title);
+
+    const addCartButton = prodElement.querySelector("button");
+    addCartButton.addEventListener("click", this.addToCart.bind(this));
+
+    this.addToTagRenderId(prodElement);
+    /* const prodElement = this.createRootElement("li", "product-item");
     prodElement.innerHTML = `
         <div>
             <img src="${this.product.imageUrl}" alt="${this.product.title}" />
@@ -22,7 +35,7 @@ export class ProductItem extends Component {
         </div>
     `;
     const addCartButton = prodElement.querySelector("button");
-    addCartButton.addEventListener("click", this.addToCart.bind(this));
+    addCartButton.addEventListener("click", this.addToCart.bind(this)); */
   }
 
   addToCart() {

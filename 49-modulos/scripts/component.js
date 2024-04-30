@@ -29,4 +29,13 @@ export class Component {
 
     return rootElement;
   }
+
+  getTemplate(tagId) {
+    const template = document.getElementById(tagId);
+    return document.importNode(template.content, true);
+  }
+
+  addToTagRenderId(element) {
+    document.getElementById(this.tagRenderId).appendChild(element);
+  }
 }
