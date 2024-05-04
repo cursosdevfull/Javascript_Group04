@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-04T12:34:29.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JpTONmFbrNUk9j72bVF8" version="24.3.1" type="google">
+  <diagram name="1" id="YJOj2GJ3SJnjUSlVijV3">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="1">
+      <root>
+        <mxCell id="Qi3QKtUpDtbcGRvHSgW5-0" />
+        <mxCell id="Qi3QKtUpDtbcGRvHSgW5-1" parent="Qi3QKtUpDtbcGRvHSgW5-0" />
+        <mxCell id="Qi3QKtUpDtbcGRvHSgW5-2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;image=https://cursos-dev.com/assets/images/logo-horizontal.png;" parent="Qi3QKtUpDtbcGRvHSgW5-1" vertex="1">
+          <mxGeometry width="282.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5LZI3IKd4jGGPCrXvZpd-0" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;image=https://cursos-dev.com/assets/images/logo-horizontal.png;" parent="Qi3QKtUpDtbcGRvHSgW5-1" vertex="1">
+          <mxGeometry width="282.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-0" value="COOKIES" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="120" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-1" value="LOCALSTORAGE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="400" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-2" value="SESSIONSTORAGE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="680" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-4" value="Tamaño máximo de almacenamiento es 40k" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="120" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-5" value="Tamaño máximo de almacenamiento es 10MB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="400" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-6" value="Tamaño máximo de almacenamiento es 10MB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="680" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-7" value="Se adjuntan automáticamente a cualquier petición" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="120" y="350" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-8" value="No se adjuntan automáticamente a cualquier petición" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="400" y="350" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-9" value="No se adjuntan automáticamente a cualquier petición" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="680" y="350" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-10" value="Pueden tener un tiempo de expiración" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="120" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-11" value="No existe el tiempo de expiración" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="400" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bm-vYylKpxMhcFC3rzl-12" value="Existe mientras no se cierre la pestaña del navegador" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Qi3QKtUpDtbcGRvHSgW5-1">
+          <mxGeometry x="680" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
