@@ -1,0 +1,16 @@
+.containerPhoto {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+td > img {
+  width: 100%;
+  max-width: 100px;
+}
