@@ -1,5 +1,5 @@
 let imageProduct;
-const products = [];
+let products = [];
 
 function render(file) {
   const fileReader = new FileReader();
@@ -49,11 +49,12 @@ async function renderProducts() {
     const tdTitle = document.createElement("td");
     tdTitle.textContent = product.title;
 
-    const imageBase64 = await renderAsync(product.image);
+    //const imageBase64 = await renderAsync(product.image);
 
     const tdImage = document.createElement("td");
     const img = document.createElement("img");
-    img.src = `${imageBase64}`;
+    //img.src = `${imageBase64}`;
+    img.src = product.image;
     tdImage.appendChild(img);
 
     const tdAction = document.createElement("td");
@@ -77,12 +78,32 @@ function addProduct() {
   const title = inputTitle.value;
   const image = imageProduct;
 
-  products.push({ id, title, image });
+  const fd = new FormData();
+  fd.append("title", title);
+  fd.append("image", image);
 
-  resetForm();
+  fetch("http://localhost:3000/insert", { method: "post", body: fd })
+    .then((res) => res.json())
+    .then((res) => fetchData());
 
-  renderProducts();
+  //products.push({ id, title, image });
+
+  //resetForm();
+
+  //renderProducts();
 }
+
+function fetchData() {
+  fetch("http://localhost:3000/list")
+    .then((res) => res.json())
+    .then((result) => {
+      products = result;
+
+      renderProducts();
+    });
+}
+
+fetchData();
 
 btnImage.addEventListener("change", loadImage);
 photo.addEventListener("click", triggerClickInputFile);
