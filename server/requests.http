@@ -1,0 +1,7 @@
+post http://localhost:3000/insert
+Content-Type: application/json
+
+{
+    "title": "product 3",
+    "image": "product3.jpg"
+}
